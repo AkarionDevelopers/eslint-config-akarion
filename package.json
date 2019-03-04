@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-akarion",
+  "version": "1.0.0",
+  "description": "Akarion ESLint config",
+  "private": true,
+  "dependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-vue": "^5.2.2"
+  }
+}
