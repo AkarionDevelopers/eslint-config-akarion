@@ -48,11 +48,6 @@ module.exports = {
 If you are using VSCode with Vetur and ESLint extensions installed, be sure to copy following settings into your settings.json for correct linting:
 ```json
 {
-  // settings.json
-
-  // ... Your custom settings here
-
-  // START COMMON AKARION SETTINGS
   "editor.tabSize": 2,
   "eslint.validate": [
     {
@@ -74,9 +69,7 @@ If you are using VSCode with Vetur and ESLint extensions installed, be sure to c
   "vetur.validation.script": false,
   "vetur.validation.style": false,
 
-  // Stylelint
   "css.validate": false,
   "scss.validate": false
-  // END COMMON AKARION SETTINGS
 }
 ```
