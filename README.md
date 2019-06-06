@@ -7,7 +7,7 @@ For the most part the linting rules are based on the [Airbnb JavaScript Style Gu
 ## Usage
 
 ```bash
-npm install AkarionDevelopers/eslint-config-akarion#v2.0.0 --save-dev
+npm install AkarionDevelopers/eslint-config-akarion#v2.0.1 --save-dev
 ```
 
 **For regular JavaScript and Node.js projects**
