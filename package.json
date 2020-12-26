@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-akarion",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Akarion ESLint config",
   "private": true,
   "dependencies": {

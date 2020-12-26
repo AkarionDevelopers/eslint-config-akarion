@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
+    'plugin:jest/recommended',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,
