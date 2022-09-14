@@ -9,7 +9,9 @@ module.exports = {
   },
   extends: [
     './index.js',
+    '@vue/typescript/recommended',
     'plugin:vue/vue3-recommended',
+    'plugin:import/typescript',
   ],
   plugins: [
     'vue',
@@ -26,6 +28,17 @@ module.exports = {
         'index', 'default',
       ],
     }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
   },
   // global imports from nuxt composables
   globals: {
@@ -50,5 +63,20 @@ module.exports = {
     useRouter: 'readonly',
     useRuntimeConfig: 'readonly',
     useState: 'readonly',
+    $fetch: 'readonly',
+    abortNavigation: 'readonly',
+    addRouteMiddleware: 'readonly',
+    clearError: 'readonly',
+    clearNuxtData: 'readonly',
+    createError: 'readonly',
+    defineNuxtComponent: 'readonly',
+    defineNuxtRouteMiddleware: 'readonly',
+    definePageMeta: 'readonly',
+    navigateTo: 'readonly',
+    refreshNuxtData: 'readonly',
+    showError: 'readonly',
+    defineNuxtPlugin: 'readonly',
+    defineEventHandler: 'readonly',
+    useBody: 'readonly',
   },
 };
