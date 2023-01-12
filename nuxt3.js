@@ -63,6 +63,7 @@ module.exports = {
     useRouter: 'readonly',
     useRuntimeConfig: 'readonly',
     useState: 'readonly',
+    useSlots: 'readonly',
     $fetch: 'readonly',
     abortNavigation: 'readonly',
     addRouteMiddleware: 'readonly',
